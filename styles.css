@@ -83,6 +83,7 @@ h3{font-size:1.18rem}
 .brand img{width:42px;height:42px;object-fit:contain}
 .brand-text{font-family:var(--serif);font-weight:900;font-size:1.18rem;color:var(--red);letter-spacing:-.02em}
 .brand-text span{color:var(--navy)}
+.brand-text .b-365{color:#000}
 .brand-text.light{color:#fff}
 .brand-text.light span{color:#9fb0d8}
 .nav{display:none;align-items:center;gap:26px}
