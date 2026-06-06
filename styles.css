@@ -198,6 +198,16 @@ h1 em{color:var(--blue);font-style:italic;font-weight:500}
 .why-card h3{font-family:var(--display);font-size:1.25rem;font-weight:700;margin-bottom:8px}
 .why-card p{color:var(--muted);font-size:.98rem}
 
+/* ---------- Testimonials ---------- */
+.testimonials{padding:80px 0;background:var(--bg)}
+.tst-grid{display:grid;gap:18px}
+.tst-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:28px 24px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:14px;transition:transform .3s,box-shadow .3s}
+.tst-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.tst-stars{color:var(--red);letter-spacing:3px;font-size:1.05rem}
+.tst-card blockquote{font-family:var(--display);font-weight:500;font-size:1.12rem;line-height:1.5;color:var(--ink-soft)}
+.tst-card figcaption strong{display:block;font-weight:700;color:var(--ink)}
+.tst-card figcaption span{color:var(--muted);font-size:.9rem}
+
 /* ---------- Process ---------- */
 .process{padding:84px 0;background:var(--ink);position:relative;overflow:hidden}
 .process::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 60% at 80% 10%,rgba(242,48,48,.18),transparent 60%),radial-gradient(50% 50% at 10% 90%,rgba(26,26,204,.22),transparent 60%)}
@@ -312,6 +322,7 @@ h1 em{color:var(--blue);font-style:italic;font-weight:500}
   .hero-cta .btn{width:auto}
   .service-grid{grid-template-columns:repeat(2,1fr)}
   .why-grid{grid-template-columns:repeat(2,1fr)}
+  .tst-grid{grid-template-columns:repeat(2,1fr)}
   .benefits-grid{grid-template-columns:repeat(2,1fr)}
   .benefit{border-bottom:none;border-right:1px solid var(--line)}
   .benefit:nth-child(2n){border-right:none}
@@ -329,6 +340,7 @@ h1 em{color:var(--blue);font-style:italic;font-weight:500}
   .about-stats{grid-template-columns:1fr}
   .service-grid{grid-template-columns:repeat(3,1fr)}
   .why-grid{grid-template-columns:repeat(3,1fr)}
+  .tst-grid{grid-template-columns:repeat(3,1fr)}
   .benefits-grid{grid-template-columns:repeat(4,1fr)}
   .benefit{border-right:1px solid var(--line)!important}
   .benefit:last-child{border-right:none!important}
